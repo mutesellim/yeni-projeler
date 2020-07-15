@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:flutter_projects/UI/input.dart';
 import 'UI/gridview.dart';
 
 void main() {
@@ -29,7 +29,7 @@ class SayfaDegistir extends StatelessWidget {
             child: Text("Beni Uygulama Sayfasına Götür",style: TextStyle(color: Colors.yellow)),
             onPressed: () {
               Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => GridViewOrnek()));
+                  MaterialPageRoute(builder: (context) => FormIslemleri()));
             },
           )
         ],
