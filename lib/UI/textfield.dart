@@ -2,12 +2,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:toast/toast.dart';
 
-class FormIslemleri extends StatefulWidget {
+class TextFieldsIslemleri extends StatefulWidget {
   @override
-  _FormIslemleriState createState() => _FormIslemleriState();
+  _TextFieldsIslemleriState createState() => _TextFieldsIslemleriState();
 }
 
-class _FormIslemleriState extends State<FormIslemleri> {
+class _TextFieldsIslemleriState extends State<TextFieldsIslemleri> {
   String girilenMetin = "";
   FocusNode _focusNode;
   TextEditingController textEditingController1;
