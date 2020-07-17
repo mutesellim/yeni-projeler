@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_projects/UI/digerformturleri.dart';
+import 'package:flutter_projects/UI/fontlar.dart';
 import 'package:flutter_projects/UI/saatvetarih.dart';
 import 'package:flutter_projects/UI/stepper.dart';
 import 'package:flutter_projects/UI/textfield.dart';
@@ -38,7 +39,7 @@ class SayfaDegistir extends StatelessWidget {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: (context) => StepperOrnek()));
+                          builder: (context) => fontKullanimi()));
                 },
               )
             ],
